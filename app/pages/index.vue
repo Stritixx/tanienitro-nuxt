@@ -1,10 +1,10 @@
 <template>
 	<div class="absolute inset-0 z-50">
-		<div class="absolute inset-0 -z-10 h-full w-full bg-[#080808] bg-[linear-gradient(to_right,#0e0e0e_1px,transparent_1px),linear-gradient(to_bottom,#0e0e0e_1px,transparent_1px)] bg-[size:1.5rem_1.5rem] px-8 py-6">
+		<div class="absolute inset-0 -z-10 h-full w-full bg-[#080808] bg-[linear-gradient(to_right,#0e0e0e_1px,transparent_1px),linear-gradient(to_bottom,#0e0e0e_1px,transparent_1px)] bg-[size:1.5rem_1.5rem] px-8 py-6 max-[700px]:px-0 max-[700px]:py-0">
 			<div class="w-full h-full bg-[#0a0a0a]/70 rounded-2xl bg-opacity-10 relative overflow-hidden flex items-center">
 				<Blobs />
 				<Navbar />
-				<Header />
+				<Header class="max-[700px]:mt-12"/>
 				<Particles class="absolute opacity-10 -z-10 animate-canvas" />
 				
 				<Cursor />
