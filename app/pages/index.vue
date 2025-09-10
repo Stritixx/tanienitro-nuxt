@@ -8,7 +8,7 @@
 				<Particles class="absolute opacity-10 -z-10 animate-canvas" />
 				
 				<Cursor />
-				
+
 				<div class="w-full h-[5px] bottom-0 absolute bg-gradient-to-r from-transparent via-purple-700/50 to-transparent"></div>
 			</div>
 		</div>
@@ -34,7 +34,8 @@
 			{ name: 'twitter:card', content: 'summary_large_image' },
 			{ name: 'twitter:title', content: 'TanieNitro - Koniec z przepłacaniem!' },
 			{ name: 'twitter:description', content: 'Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas! Dołącz na nasz serwer Discord już dziś i przekonaj się sam.' },
-			{ name: 'twitter:image', content: 'https://tanienitro.com/purple_logo.png' }
+			{ name: 'twitter:image', content: 'https://tanienitro.com/purple_logo.png' },
+			{ name: 'lang', content: 'pl' }
 		],
 		link: [
 			{ rel: 'icon', type: 'image/png', href: '/favicon.png' }
