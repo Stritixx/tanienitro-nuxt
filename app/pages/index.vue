@@ -4,7 +4,7 @@
 			<div class="w-full h-full bg-[#0a0a0a]/70 rounded-2xl bg-opacity-10 relative overflow-hidden flex items-center">
 				<Blobs />
 				<Navbar />
-				<Header class="max-[700px]:mt-12"/>
+				<Header class="max-[700px]:mt-[120px]"/>
 				<Particles class="absolute opacity-10 -z-10 animate-canvas" />
 				
 				<Cursor />
