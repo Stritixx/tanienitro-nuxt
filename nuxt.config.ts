@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   	compatibilityDate: '2025-07-15',
   	devtools: { enabled: false },
 	components: true,
-	ssr: true,
+	ssr: false,
 	
   	modules: ['@nuxt/eslint'],
 	vite: {
