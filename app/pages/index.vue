@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full inset-0 -z-10 bg-[#080808] bg-[linear-gradient(to_right,#0e0e0e_1px,transparent_1px),linear-gradient(to_bottom,#0e0e0e_1px,transparent_1px)] bg-[size:1.5rem_1.5rem]">
-		<div class="w-full h-screen px-8 py-6">
+		<div class="w-full h-screen px-8 py-6 max-md:px-3 max-md:py-2">
 			<div class="w-full h-full bg-[#0a0a0a]/70 rounded-2xl bg-opacity-10 relative overflow-hidden flex items-center">
 				<Blobs />
 				<Navbar />
