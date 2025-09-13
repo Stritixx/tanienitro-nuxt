@@ -1,5 +1,7 @@
 <template>
-	<div class="w-[50px] h-[50px] bg-purple-600 blur-[70px] absolute select-none pointer-events-none" :style="`left: ${x - 55}px; top: ${y - 50}px; opacity: ${opacity}`"></div>
+	<div class="fixed w-full h-screen z-50 top-0 left-0 pointer-events-none">
+		<div class="w-[50px] h-[50px] bg-purple-600 blur-[70px] absolute select-none pointer-events-none" :style="`left: ${x - 25}px; top: ${y - 25}px; opacity: ${opacity}`"></div>
+	</div>
 </template>
 
 

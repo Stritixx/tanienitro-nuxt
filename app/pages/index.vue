@@ -1,18 +1,30 @@
 <template>
-	<div class="absolute inset-0 z-50">
-		<div class="absolute inset-0 -z-10 h-full w-full bg-[#080808] bg-[linear-gradient(to_right,#0e0e0e_1px,transparent_1px),linear-gradient(to_bottom,#0e0e0e_1px,transparent_1px)] bg-[size:1.5rem_1.5rem] px-8 py-6 max-[700px]:px-0 max-[700px]:py-0">
+	<div class="w-full h-full inset-0 -z-10 bg-[#080808] bg-[linear-gradient(to_right,#0e0e0e_1px,transparent_1px),linear-gradient(to_bottom,#0e0e0e_1px,transparent_1px)] bg-[size:1.5rem_1.5rem]">
+		<div class="w-full h-screen px-8 py-6">
 			<div class="w-full h-full bg-[#0a0a0a]/70 rounded-2xl bg-opacity-10 relative overflow-hidden flex items-center">
 				<Blobs />
 				<Navbar />
 				<Header class="max-[700px]:mt-[120px]"/>
-				<Particles class="absolute opacity-10 -z-10 animate-canvas" />
-				
-				<Cursor />
 
 				<div class="w-full h-[5px] bottom-0 absolute bg-gradient-to-r from-transparent via-purple-700/50 to-transparent"></div>
 			</div>
 		</div>
-		<GithubFloatButton />
+
+		<div class="max-w-[1800px] flex justify-center mt-[150px] pb-[150px] mx-auto flex-wrap">
+			<div class="w-full flex justify-center mb-12">
+				<Chip :label="'Wybierz Mądrze'" />
+			</div>
+
+			<div class="w-full h-full bg-[#0a0a0a]/80 rounded-2xl border-solid border-gray-700/20 border-2 flex relative overflow-hidden group hover:bg-opacity-50 transition mx-12 flex-wrap">
+				<StatsBox v-for="(box, index) in statsBoxes" :key="index" :label="box.label" :value="box.value"/>
+
+				<div class="absolute w-2/5 h-full bg-purple-600 left-1/2 -translate-x-1/2 blur-[100px] -bottom-[300px] group-hover:scale-110 transition max-[900px]:-bottom-4/5 max-[900px]:blur-[300px] max-[900px]:-left-[30%]"></div>
+			</div>
+		</div>
+
+
+
+		<Cursor />
 	</div>
 </template>
 
@@ -41,4 +53,20 @@
 			{ rel: 'icon', type: 'image/png', href: '/favicon.png' }
 		]
 	})
+
+	const statsBoxes = [
+		{
+			label: 'Sprzedanych produktów',
+			value: '5000+',
+		},
+		{
+			label: 'Zadowolonych klientów',
+			value: '2000+',
+		},
+		{
+			label: 'Lat na rynku',
+			value: '3+',
+		},
+	]
+
 </script>
