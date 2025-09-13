@@ -1,6 +1,6 @@
 <template>
 	<NuxtLink to="https://github.com/Stritixx/tanienitro-nuxt" target="_blank" rel="noopener noreferrer">
-		<div class="w-8 h-6 bg-[#111] absolute bottom-0 left-1/2 -translate-x-1/2 rounded-t-[15px] border-solid border-[1px] border-b-0 border-gray-600/50 flex justify-center duration-400 items-center cursor-pointer hover:bottom-2 hover:border-[1px] hover:rounded-[15px] hover:w-12 hover:h-8 hover:bg-purple-500/10">
+		<div class="w-8 h-6 bg-[#111] fixed bottom-0 left-1/2 -translate-x-1/2 rounded-t-[15px] border-solid border-[1px] border-b-0 border-gray-600/50 flex justify-center duration-400 items-center cursor-pointer hover:bottom-2 hover:border-[1px] hover:rounded-[15px] hover:w-12 hover:h-8 hover:bg-purple-500/10">
 			<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 24 24" id="github" class="w-4">
 				<g transform="translate(-40 -40)" fill="#000000" class="color000000 svgShape">
 					<rect width="14" height="14" x="20" y="20" fill="none"></rect>

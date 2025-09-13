@@ -7,7 +7,7 @@
 				<ul class="flex gap-12 text-gray-200 items-center max-[700px]:hidden">
 					<li>Home</li>
 					
-					<button class="px-10 py-2 bg-purple-800 rounded-full hover:bg-purple-800/90 transition cursor-pointer">Discord</button>
+					<PrimaryButton :label="'Discord'"/>
 				</ul>
 
 				<NuxtLink to="https://discord.gg/okazja" target="_blank" rel="noopener noreferrer" class="hidden max-[700px]:block">
