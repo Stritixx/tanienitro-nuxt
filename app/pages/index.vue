@@ -50,14 +50,14 @@
 	useHead({
 		title: 'TanieNitro - Koniec z przepłacaniem!',
 		meta: [
-			{ name: 'description', content: 'Oferujemy najtańsze nitra oraz inne produkty w całej polsce! Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas!' },
+			{ name: 'description', content: 'Oferujemy najtańsze nitra oraz inne produkty w całej polsce! Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów.' },
 			{ name: 'keywords', content: 'TanieNitro, Discord Nitro, Boosty na serwer, Tanie Nitro, promocje, zniżki, najlepsze ceny, zakupy online, discord, discord shop, sklep discord, sklep, stritixx' },
 			{ name: 'author', content: 'Stritixx' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ name: 'robots', content: 'index, follow' },
 
 			{ property: 'og:title', content: 'TanieNitro - Koniec z przepłacaniem!' },
-			{ property: 'og:description', content: 'Oferujemy najtańsze nitra oraz inne produkty w całej polsce! Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas!' },
+			{ property: 'og:description', content: 'Oferujemy najtańsze nitra oraz inne produkty w całej polsce! Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów.' },
 			{ property: 'og:type', content: 'website' },
 			{ property: 'og:url', content: 'https://tanienitro.com' },
 
