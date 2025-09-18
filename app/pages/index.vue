@@ -27,7 +27,10 @@
 		<div class="max-w-[900px] px-8 flex justify-center mt-[150px] mx-auto flex-wrap gap-8 relative py-[200px]">
 			<p class="w-full text-center text-[2.5rem] bg-gradient-to-t from-gray-800 to-gray-100 bg-clip-text text-transparent text-2xl font-bold">{{ strings.discordText }}</p>
 			<p class="w-full text-center text-lg text-gray-500">{{ strings.discordDescription }}</p>
-			<PrimaryButton :label="'Discord'" />
+			
+			<NuxtLink to="https://discord.gg/okazja" target="_blank" rel="noopener noreferrer">
+				<PrimaryButton :label="'Discord'" />
+			</NuxtLink>
 
 			<div class="w-3/5 h-[80px] bg-gray-200/20 blur-[120px] absolute top-1/2 -translate-y-1/2"></div>
 		</div>
