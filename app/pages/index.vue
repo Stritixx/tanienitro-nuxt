@@ -16,7 +16,7 @@
 			</div>
 
 			<div class="w-full h-full bg-[#0a0a0a]/80 rounded-2xl border-solid border-gray-700/20 border-2 flex relative overflow-hidden group hover:bg-opacity-50 transition mx-12 flex-wrap">
-				<StatsBox v-for="(box, index) in statsBoxes" :key="index" :label="box.label" :value="box.value"/>
+				<StatsBox v-for="(box, index) in strings.statsBoxes" :key="index" :label="box.label" :value="box.value"/>
 
 				<div class="absolute w-2/5 h-full bg-purple-600 left-1/2 -translate-x-1/2 blur-[100px] -bottom-[300px] group-hover:scale-110 transition max-[900px]:-bottom-4/5 max-[900px]:blur-[300px] max-[900px]:-left-[30%]"></div>
 			</div>
@@ -25,12 +25,15 @@
 
 
 		<div class="max-w-[900px] px-8 flex justify-center mt-[150px] mx-auto flex-wrap gap-8 relative py-[200px]">
-			<p class="w-full text-center text-[2.5rem] bg-gradient-to-t from-gray-800 to-gray-100 bg-clip-text text-transparent text-2xl font-bold">Nasz Discord</p>
-			<p class="w-full text-center text-lg text-gray-500">Dołącz do naszego serwera Discord, gdzie w jednym miejscu czekają na Ciebie wszystkie dostępne oferty. To szybki i wygodny sposób, by być zawsze na bieżąco i nie przegapić żadnej okazji. W razie terma, na naszej stronie zawsze znajdziesz nowy link do aktualnego serwera.</p>
+			<p class="w-full text-center text-[2.5rem] bg-gradient-to-t from-gray-800 to-gray-100 bg-clip-text text-transparent text-2xl font-bold">{{ strings.discordText }}</p>
+			<p class="w-full text-center text-lg text-gray-500">{{ strings.discordDescription }}</p>
 			<PrimaryButton :label="'Discord'" />
 
 			<div class="w-3/5 h-[80px] bg-gray-200/20 blur-[120px] absolute top-1/2 -translate-y-1/2"></div>
 		</div>
+
+
+		<Footer />
 		
 		<GithubFloatButton />
 		<Cursor />
@@ -39,6 +42,8 @@
 
 
 <script lang="ts" setup>
+	import { strings } from '~/constants/strings';
+
 	useHead({
 		title: 'TanieNitro - Koniec z przepłacaniem!',
 		meta: [
@@ -62,20 +67,5 @@
 			{ rel: 'icon', type: 'image/png', href: '/favicon.png' }
 		]
 	})
-
-	const statsBoxes = [
-		{
-			label: 'Sprzedanych produktów',
-			value: '5000+',
-		},
-		{
-			label: 'Zadowolonych klientów',
-			value: '2000+',
-		},
-		{
-			label: 'Lat na rynku',
-			value: '3+',
-		},
-	]
 
 </script>
