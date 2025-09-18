@@ -27,7 +27,7 @@
 		<div class="max-w-[900px] px-8 flex justify-center mt-[150px] mx-auto flex-wrap gap-8 relative py-[200px]">
 			<p class="w-full text-center text-[2.5rem] bg-gradient-to-t from-gray-800 to-gray-100 bg-clip-text text-transparent text-2xl font-bold">{{ strings.discordText }}</p>
 			<p class="w-full text-center text-lg text-gray-500">{{ strings.discordDescription }}</p>
-			
+
 			<NuxtLink to="https://discord.gg/okazja" target="_blank" rel="noopener noreferrer">
 				<PrimaryButton :label="'Discord'" />
 			</NuxtLink>
@@ -50,25 +50,31 @@
 	useHead({
 		title: 'TanieNitro - Koniec z przepłacaniem!',
 		meta: [
-			{ name: 'description', content: 'Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas! Dołącz na nasz serwer Discord już dziś i przekonaj się sam.' },
-			{ name: 'keywords', content: 'TanieNitro, Discord Nitro, Boosty na serwer, Tanie Nitro, promocje, zniżki, najlepsze ceny, zakupy online, discord, discord shop, sklep discord, sklep, stritixx', },
+			{ name: 'description', content: 'Oferujemy najtańsze nitra oraz inne produkty w całej polsce! Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas! Dołącz na nasz serwer Discord już dziś i przekonaj się sam.' },
+			{ name: 'keywords', content: 'TanieNitro, Discord Nitro, Boosty na serwer, Tanie Nitro, promocje, zniżki, najlepsze ceny, zakupy online, discord, discord shop, sklep discord, sklep, stritixx' },
 			{ name: 'author', content: 'Stritixx' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ name: 'robots', content: 'index, follow' },
 			{ property: 'og:title', content: 'TanieNitro - Koniec z przepłacaniem!' },
-			{ property: 'og:description', content: 'Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas! Dołącz na nasz serwer Discord już dziś i przekonaj się sam.' },
+			{ property: 'og:description', content: 'Oferujemy najtańsze nitra oraz inne produkty w całej polsce! Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas! Dołącz na nasz serwer Discord już dziś i przekonaj się sam.' },
 			{ property: 'og:type', content: 'website' },
 			{ property: 'og:url', content: 'https://tanienitro.com' },
+			{ property: 'og:image', content: 'https://tanienitro.com/banner.png' },
 			{ property: 'og:image', content: 'https://tanienitro.com/purple_logo.png' },
+			{ property: 'og:image:width', content: '256' },
+			{ property: 'og:image:height', content: '256' },
 			{ name: 'twitter:card', content: 'summary_large_image' },
 			{ name: 'twitter:title', content: 'TanieNitro - Koniec z przepłacaniem!' },
-			{ name: 'twitter:description', content: 'Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas! Dołącz na nasz serwer Discord już dziś i przekonaj się sam.' },
-			{ name: 'twitter:image', content: 'https://tanienitro.com/purple_logo.png' },
-			{ name: 'lang', content: 'pl' }
+			{ name: 'twitter:description', content: 'Oferujemy najtańsze nitra oraz inne produkty w całej polsce! Działamy na rynku od 2022 roku oferując naszym klientom najwyższą jakość produktów. W tym czasie zebraliśmy ponad 5000 legitchecków co świadczy o wysokim zaufaniu do nas! Dołącz na nasz serwer Discord już dziś i przekonaj się sam.' },
+			{ name: 'twitter:image', content: 'https://tanienitro.com/purple_banner.png' },
+			{ name: 'lang', content: 'pl' },
+			{ name: 'theme-color', content: '#a600ff' },
+			{ name: 'msapplication-TileColor', content: '#a600ff' }
 		],
 		link: [
 			{ rel: 'icon', type: 'image/png', href: '/favicon.png' }
 		]
 	})
+
 
 </script>
