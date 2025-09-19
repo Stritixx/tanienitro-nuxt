@@ -75,7 +75,7 @@
 			{ name: 'msapplication-TileColor', content: '#a600ff' }
 		],
 		link: [
-			{ rel: 'icon', type: 'image/png', href: '/favicon.png' }
+			{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }
 		]
 	})
 
